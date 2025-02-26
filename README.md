@@ -1,5 +1,3 @@
-[![npm]](https://www.npmjs.com/package/jest-spin-reporter)
-
 # NGX Progress Spinner
 
 It will show the static progress spinner with support of different size of width and height

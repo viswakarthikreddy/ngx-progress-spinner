@@ -1,18 +1,16 @@
-[![npm](https://badgen.now.sh/npm/v/jest-spin-reporter)](https://www.npmjs.com/package/jest-spin-reporter)
-
 # NGX Progress Spinner
 
 It will show the static progress spinner with support of different size of width and height
 
-![](https://user-images.githubusercontent.com/1210596/43618452-44f29b52-967d-11e8-9dd7-c94478606d97.gif)
+![image](https://github.com/user-attachments/assets/d7a1ebd3-3c5e-4ffd-ae20-e552a28cc3cc)
 
 # Install
 
-First, install `jest-spin-reporter`
+First, install `ngx-progress-spinner`
 
 ```sh
 npm i ngx-progress-spinner
 ```
 
 # License
-[MIT](https://github.com/kwonoj/jest-spin-reporter/blob/master/LICENSE)
+[MIT](https://github.com/viswakarthikreddy/ngx-progress-spinner/master/LICENSE)
