@@ -2,7 +2,8 @@
 
 It will show the static progress spinner with support of different size of width and height
 
-![image](https://github.com/user-attachments/assets/d7a1ebd3-3c5e-4ffd-ae20-e552a28cc3cc)
+![image](https://github.com/user-attachments/assets/8fa2a2a8-ca80-4249-a061-7602f33f4b1b)
+
 
 # Install
 
