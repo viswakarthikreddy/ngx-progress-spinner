@@ -10,5 +10,4 @@ import { ProgressSpinnerComponent } from '../../projects/ngx-progress-spinner/sr
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'dynamic-form';
 }
