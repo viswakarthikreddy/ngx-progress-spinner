@@ -1,0 +1,10 @@
+<div class="spinner-container" [style.width.px]="width" [style.height.px]="height">
+    <svg class="spinner" [attr.width]="width" [attr.height]="height" viewBox="0 0 50 50">
+    <path class="bg" stroke-width="9"  d="M27 10.0845
+      a 15.9155 15.9155 0 0 1 0 32.831
+      a 15.9155 15.9155 0 0 1 0 -32.831" />
+    <path class="progress" [attr.stroke]="color" stroke-width="9"  [attr.stroke-dasharray]="dashArray" d="M27 10.0845
+      a 15.9155 15.9155 0 0 1 0 32.831
+      a 15.9155 15.9155 0 0 1 0 -32.831" />
+  </svg>
+</div>

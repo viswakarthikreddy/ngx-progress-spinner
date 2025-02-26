@@ -1,0 +1,25 @@
+/* progress-spinner.component.css */
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .spinner {
+    transform: rotate(0deg);
+  }
+  
+  .bg {
+    fill: none;
+    stroke: #e6e6e6;
+    stroke-width: 11;
+  }
+  
+  .progress {
+    fill: none;
+    stroke-width:11;
+    stroke-linecap: round;
+    transition: stroke-dasharray 0.3s;
+  }
+  

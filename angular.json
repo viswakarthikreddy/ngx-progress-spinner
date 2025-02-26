@@ -97,6 +97,39 @@
           }
         }
       }
+    },
+    "ngx-progress-spinner": {
+      "projectType": "library",
+      "root": "projects/ngx-progress-spinner",
+      "sourceRoot": "projects/ngx-progress-spinner/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-progress-spinner/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-progress-spinner/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-progress-spinner/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/ngx-progress-spinner/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
     }
   }
 }
